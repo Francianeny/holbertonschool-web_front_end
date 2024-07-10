@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" >
+	<!-- title of page -->
+	 <title>Homepage - Techium</title>
+	 <!-- description -->
+	  <meta name="description" content="Techium is a digital agency">
+	  <!-- icone de l'onglet -->
+	  <link rel="icon" type="image/x-icon" href="./favicon.ico">
+	  <link rel="icon" type="image/png" href="./favicon.png">
+</head>
+<body>
+<!-- header section -->
+	<header>Header</header>
+<!-- main section -->
+<main>
+	<section>Hero section</section>
+	<section>Services section</section>
+	<section>Works section</section>
+	<section>About section</section>
+	<section>Latest news section</section>
+	<section>Testimonials section</section>
+	<section>Contact section</section>
+</main>
+<!-- footer section -->
+<footer>Footer</footer>
+<!-- works section -->
+<section id="works">
+	<article>Work #</article>
+	<article>Work #</article>
+	<article>Work #</article>
+</section>
+<script>
+	// Sélectionnez la section works
+	var worksSection = document.getElementById('works');
+
+// Boucle pour créer les articles Work 1, Work 2, Work 3
+for (var i = 1; i <= 3; i++) {
+	// Créez une nouvelle balise article
+	var article = document.createElement('article');
+	// Ajoutez le texte "Work #" à l'intérieur de l'article
+	article.textContent = 'Work ' + i;
+	// Ajoutez l'article à la section works
+	worksSection.appendChild(article);
+}
+</script>
+<!-- Latest news section -->
+<section id="latest-news">
+	<article>Article #</article>
+	<article>Article #</article>
+	<article>Article #</article>
+</section>
+<script>
+	// Sélectionnez la section latest-news
+	var latestNewsSection = document.getElementById('latest-news');
+
+	// Boucle pour créer les articles Article 1, Article 2, Article 3
+	for (var i = 1; i <= 3; i++) {
+		// Créez une nouvelle balise article
+		var article = document.createElement('article');
+		// Ajoutez le texte "Article #" à l'intérieur de l'article
+		article.textContent = 'Article ' + i;
+		// Ajoutez l'article à la section latest-news
+		latestNewsSection.appendChild(article);
+	}
+</script>
+<!-- Testimonials section -->
+<section id="Testimonials section">
+<article>Testimonial #</article>
+<article>Testimonial #</article>
+<article>Testimonial #</article>
+</section>
+<script>
+// Sélectionnez Testimonials section
+var Testimonials section = document.getElementById('Testimonials section');
+
+// Boucle pour créer les articles Article 1, Article 2, Article 3
+for (var i = 1; i <= 3; i++) {
+	// Créez une nouvelle balise article
+	var article = document.createElement('article');
+	// Ajoutez le texte "Article #" à l'intérieur de l'article
+	article.textContent = 'Article ' + i;
+	// Ajoutez l'article à la section latest-news
+	Testimonials section.appendChild(article);
+}
+</script>
+
+</body>
+</html>
