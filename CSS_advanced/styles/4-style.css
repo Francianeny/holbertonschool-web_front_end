@@ -13,7 +13,7 @@ html {
 }
 body {
 	color: var(--text-color);
-	font-family :var(--font-family-title);
+	font-family :var(--font-family-base);
 }
 a {
 color: #161616;
