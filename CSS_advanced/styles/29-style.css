@@ -43,6 +43,7 @@ html {
 --nav-item-display : inline-block;
 --nav-item-margin : 0 0 3rem 0;
 --nav-item-link-hover : var(--color-primary);
+--nav-item-link-hover : var(--color-white);
 --section-tagline-margin : 0;
 /*Add custom properties to the root selector in the css file*/
 /* button*/
@@ -61,7 +62,6 @@ html {
 --header-logo-link-position : absolute;
 --header-logo-link-top : -1rem;
 --header-logo-link-left : 0;
---nav-item-link-hover : var(--color-white);
 }
 body {
 	color: var(--text-color);
