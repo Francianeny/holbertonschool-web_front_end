@@ -8,34 +8,43 @@ html {
 	box-sizing: border-box;
 }
 :root {
---color-primary : #d73953;
+/*color*/
+	--color-primary : #d73953;
 --color-black : #090909;
 --color-white : #ffffff;
 --color-light-grey : #f3f3f3;
 --color-dark-grey : #353535;
+/*text write*/
 --text-color : var(--color-black);
 --font-family-base : Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
 --font-family-title : Raleway, Helvetica Neue, Helvetica, Arial, sans-serif;
+/*text size*/
 --font-size-small : 1.2rem;
 --font-size-medium : 1.6rem;
 --font-size-large : 1.8rem;
 --font-size-x-large : 2.3rem;
 --font-size-xx-large : 4.8rem;
+/*text weight*/
 --font-weight-regular : 400;
 --font-weight-bold : 700;
+/*line height*/
 --line-height-small : 1.2;
 --line-height-base : 1.5;
 --line-height-big : 1.8;
+/*section center*/
 --section-header-align : center;
 --section-tagline-transform : uppercase;
 --section-title-margin : 0;
 --section-title-color : var(--color-black);
+/*padding*/
 --section-padding : 5rem 0;
 --section-header-padding : 0 0 3rem;
 --section-body-padding : 0 0 3rem;
 --section-footer-padding : 3rem 0 0;
 --section-footer-align : center;
 --footer-padding : 5rem 0 1rem;
+--section-tagline-margin : 0;
+/*nav*/
 --nav-item-font-family : var(--font-family-title);
 --nav-item-font-weight : var(--font-weight-bold);
 --nav-item-font-size : var(--font-size-medium);
@@ -44,7 +53,6 @@ html {
 --nav-item-margin : 0 0 3rem 0;
 --nav-item-link-hover : var(--color-primary);
 --nav-item-link-hover : var(--color-white);
---section-tagline-margin : 0;
 /*Add custom properties to the root selector in the css file*/
 /* button*/
 --button-display : inline-block;
@@ -56,6 +64,7 @@ html {
 --button-hover-color : var(--color-white);
 --button-hover-text-decoration : none;
 --button-hover-background : var(--color-primary);
+/*header*/
 --header-padding : 4rem 0 0;
 --header-logo-position : relative;
 --header-logo-link-display : inline-block;
