@@ -184,13 +184,13 @@ ul.row {
 .card-services .card-title {
 	margin: 0;
 }
-.card-services .a {
+.card-services a {
 	display: block;
 	padding: 2rem;
 	background-color: var(--color-light-grey);
 }
 /* target the hover state of a that inside card-services*/
-.card-services .a:h {
+.card-services a:h {
 	color: var(--color-white);
 	background-color: var(--color-primary);
 	text-decoration: none;
