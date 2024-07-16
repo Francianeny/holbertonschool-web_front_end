@@ -190,7 +190,7 @@ ul.row {
 	background-color: var(--color-light-grey);
 }
 /* target the hover state of a that inside card-services*/
-.card-services a:h {
+.card-services a:hover {
 	color: var(--color-white);
 	background-color: var(--color-primary);
 	text-decoration: none;
